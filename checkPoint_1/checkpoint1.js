@@ -1,18 +1,16 @@
-//variaveis opcoes
+//variaveis (globais por enquanto)
 var pipoca = 10;
 var macarrao = 8;
 var carne = 15;
 var feijao = 12;
 var brigadeiro = 8;
-//variaveis menu/funcionamento
 var padrao = null;
 var menu = null;
 var alterar = null;
 
 //controles do microondas
-menu = uranio;
-alterar = 10;
-// verifique seu log para ver o resultado
+menu = 'teste';
+alterar = 16;
 
 //funcao selecionar: seleciona as opções e retorna falso caso selecione algo errado (nome autoexplicativo)
 function selecionar (opcao) {
@@ -37,7 +35,7 @@ function selecionar (opcao) {
     }
 }
 
-//funcao ligar vai exibir os textos necessarios de acordo com o resultado que vier da function selecionar()
+
 function ligar(alteracao) {
     alteracao === 0 ? alteracao = padrao: '';
 
@@ -56,7 +54,6 @@ function ligar(alteracao) {
     return ''
 }
 
-//display no Log
 selecionar(menu)
 var resultado = ligar(alterar)
 console.log(resultado);
