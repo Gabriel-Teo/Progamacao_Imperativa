@@ -4,12 +4,14 @@ var macarrao = 8;
 var carne = 15;
 var feijao = 12;
 var brigadeiro = 8;
+//variaveis do menu
 var padrao = null;
 var menu = null;
 var alterar = null;
 
 //controles do microondas
-menu = 'teste';
+//caso for selecionar uma opção que não seja do menu escreva uma 'string'
+menu = pipoca;
 alterar = 16;
 
 //funcao selecionar: seleciona as opções e retorna falso caso selecione algo errado (nome autoexplicativo)

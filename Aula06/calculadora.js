@@ -19,8 +19,8 @@ function quadradoNum(power){
 }
 
 function mediaDeTresNum(num1,num2,num3){
-    let somaNum1eNum2eNum3 = soma(soma(num1,num2), num3);
-    return dividir(somaNum1eNum2eNum3, 3)
+    let rSomaTotal = soma(soma(num1,num2), num3);
+    return dividir(rSomaTotal, 3)
 }
 
 function porcentagem(num1, num2) {
